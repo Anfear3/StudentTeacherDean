@@ -14,7 +14,7 @@ def get_db_connection(user_role):
             host="localhost",
             database="university_db", 
             user="postgres",         
-            password="Mas_mak122", 
+            password="admin", 
             port="5432"
         )
         cur = conn.cursor()
